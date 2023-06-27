@@ -1,5 +1,10 @@
+import videoHomePage from "../../access/video-homepage.mp4";
 const HomePages = () => {
-  return <div>Page HomePage Of Luong Huy</div>;
+  return (
+    <video autoPlay muted loop>
+      <source src={videoHomePage} type="video/mp4" />
+    </video>
+  );
 };
 
 export default HomePages;

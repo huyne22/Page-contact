@@ -19,3 +19,9 @@ body {
     }
   }
 }
+
+video{
+  width: 50%;
+  position: fixed;
+  bottom: 0;
+}
