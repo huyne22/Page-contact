@@ -21,9 +21,6 @@ const Header = () => {
             <Link to="/user" className="nav-link">
               User
             </Link>
-            {/* <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="/admin">Admin</Nav.Link>
-            <Nav.Link href="/user">User</Nav.Link> */}
           </Nav>
           <Nav>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
